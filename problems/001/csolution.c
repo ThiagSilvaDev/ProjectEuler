@@ -12,10 +12,10 @@ int main () {
     int sum = sumMultiples(a) + sumMultiples(b) - sumMultiples(a * b);
 
     printf("%d", sum);
+    return 0;
 }
 
-
-int sumMultiples(int n) {
-    int p = (k - 1) / n;
-    return n * (p * (p + 1)) / 2;
+int sumMultiples(int num) {
+    int multiples = (k - 1) / num;
+    return num * (multiples * (multiples + 1)) / 2;
 }
