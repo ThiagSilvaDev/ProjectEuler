@@ -11,7 +11,7 @@ int main () {
 
     int sum = sumMultiples(a) + sumMultiples(b) - sumMultiples(a * b);
 
-    printf("%d", sum);
+    printf("%d\n", sum);
     return 0;
 }
 
