@@ -5,13 +5,13 @@ const int k = 1000;
 
 int sumMultiples(int n);
 
-int main () {
+int main() {
     int a = 3;
     int b = 5;
 
-    int sum = sumMultiples(a) + sumMultiples(b) - sumMultiples(a * b);
+    int total_sum = sumMultiples(a) + sumMultiples(b) - sumMultiples(a * b);
 
-    printf("%d\n", sum);
+    printf("%d\n", total_sum);
     return 0;
 }
 
