@@ -1,6 +1,8 @@
 #include <stdio.h>
 
 
+const int k = 4000000;
+
 int main () {
     int current_term = 1;
     int previous_term = 1;
@@ -8,8 +10,6 @@ int main () {
     
     // every even term of a fibonnaci sequence is the sum of the two previous odd numbers
     int even_term = current_term + previous_term;
-
-    int k = 4000000;
 
     while (even_term < k ) {
         sum_fibo += even_term;

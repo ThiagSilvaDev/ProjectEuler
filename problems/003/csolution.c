@@ -20,10 +20,10 @@ int main() {
     // eliminate the only even prime
     number = factorization(number, 2);
 
-    // calculate the max factor wich cannot be longer than the square root of number  
+    // calculate the maximum factor which cannot be longer than the square root of number  
     max_factor = sqrt(number);
 
-    factor = 3;
+    factor = 3; 
     while (factor <= max_factor) {
         number = factorization(number, factor);
         max_factor = sqrt(number);
