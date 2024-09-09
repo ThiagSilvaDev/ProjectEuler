@@ -1,6 +1,5 @@
 #include <stdio.h>
 
-
 const int k = 4000000;
 
 int main () {

@@ -1,10 +1,10 @@
 # Project Euler Solutions
 
-Welcome to the repository of solutions for Project Euler problems, implemented in C and Python.
+Welcome to the repository of solutions for Project Euler problems, implemented in C.
 
 ## About
 
-This repository contains implementations for solving various Project Euler problems. Each problem is organized in its own directory with solutions provided in both C and Python.
+This repository contains implementations for solving various Project Euler problems. Each problem is organized in its own directory with solutions provided in C.
 
 ## Directory Structure
 
@@ -14,35 +14,19 @@ The directory structure is organized as follows:
 problems/
 ├── 001/
 │   ├── csolution.c
-│   └── pysolution.py
+│   └── readme.md
 ├── 002/
 │   ├── csolution.c
-│   └── pysolution.py
+│   └── readme.md
 └── ...
 ```
 
 - `problems/`: Contains directories for each problem.
 - `001/`, `002/`, etc.: Directories for specific problems.
-- `csolution.py`: Python solution for the problem.
-- `pysolution.c`: C solution for the problem.
+- `csolution.c`: C solution for the problem.
+- `readme.md`: Description of the problem.
 
-## Usage Instructions
-
-### Running Python Solutions
-
-1. Navigate to the problem directory:
-
-   ```sh
-   cd problems/001
-   ```
-
-2. Run the Python script:
-
-   ```sh
-   python pysolution.py
-   ```
-
-### Compiling and Running C Solutions
+### Usage Instructions Compiling and Running C Solutions
 
 1. Navigate to the problem directory:
 

@@ -2,7 +2,6 @@
 #include <stdint.h>
 #include <math.h>
 
-
 uint64_t factorization(uint64_t num, int fac) {
     while (num % fac == 0) {
         num /= fac;

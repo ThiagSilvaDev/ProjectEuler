@@ -2,7 +2,6 @@
 #include <string.h>
 #include <stdbool.h>
 
-
 void reverseString(char *str) {
     int i = 0;
     int k = strlen(str) - 1;
